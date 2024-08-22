@@ -1,7 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import heroImage from "../public/ambassador2.webp";
+import officeImg1 from "../public/images/office1.webp";
+import officeImg2 from "../public/images/office2.jpg";
+import officeImg3 from "../public/images/office3.jpg";
+import officeImg5 from "../public/images/office5.jpeg";
 
 const listings = [
     {
@@ -14,7 +17,7 @@ const listings = [
         priceRange: "30,000 - 40,000",
         area: 50,
         viewCount: 14,
-        imageUrl: heroImage,
+        imageUrl: officeImg1,
     },
     {
         id: 2,
@@ -26,7 +29,7 @@ const listings = [
         priceRange: "40,000 - 55,000",
         area: 40,
         viewCount: 14,
-        imageUrl: heroImage,
+        imageUrl: officeImg5,
     },
     {
         id: 3,
@@ -38,7 +41,7 @@ const listings = [
         priceRange: "20,000 - 30,000",
         area: 30,
         viewCount: 14,
-        imageUrl: heroImage,
+        imageUrl: officeImg3,
     },
     {
         id: 4,
@@ -50,7 +53,7 @@ const listings = [
         priceRange: "30,000 - 40,000",
         area: 100,
         viewCount: 14,
-        imageUrl: heroImage,
+        imageUrl: officeImg2,
     },
     {
         id: 5,
@@ -62,7 +65,7 @@ const listings = [
         priceRange: "30,000 - 40,000",
         area: 40,
         viewCount: 14,
-        imageUrl: heroImage,
+        imageUrl: officeImg1,
     },
     {
         id: 6,
@@ -74,7 +77,7 @@ const listings = [
         priceRange: "30,000 - 40,000",
         area: 50,
         viewCount: 14,
-        imageUrl: heroImage,
+        imageUrl: officeImg5,
     },
 ];
 
