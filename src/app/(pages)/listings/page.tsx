@@ -1,7 +1,7 @@
-export default function Listings() {
+export default function Listing({params}: {params: any}) {
     return (
         <div>
-            <h1>Listings Page</h1>
+            <h1>Listings</h1>
         </div>
     );
 }

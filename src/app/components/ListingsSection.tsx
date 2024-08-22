@@ -90,7 +90,16 @@ export default function ListingsSection() {
                     <div key={listing.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
                         <div className="relative">
                             
-                            <Image src={listing.imageUrl} alt={listing.spaceId} width={250} height={250} layout="responsive" />
+                           
+                            <div className="w-full" style={{ paddingBottom: "75%" }}> {/* Adjust the paddingBottom to change the aspect ratio */}
+        <Image 
+            src={listing.imageUrl} 
+            alt={listing.spaceId} 
+            layout="fill" 
+            objectFit="cover" 
+            className="absolute inset-0" 
+        />
+    </div>
                             {listing.openForRent ? (
                             
                                 <span className="text-xs font-medium uppercase px-2 py-1 text-white bg-dark rounded-full absolute top-3 left-2">

@@ -20,6 +20,9 @@ export default function HeroSection() {
             <div className="relative bg-black bg-opacity-50">
                 <Navbar />
                 <div className="relative z-10 flex flex-col justify-center items-center text-center h-screen">
+                <button className="border text-white font-light text-sm px-4 py-1 sm:text-sm sm:px-4 sm:py-1.5 md:px-6 md:py-2 rounded-full mb-10">
+                            Let Us Grow Together
+                    </button>
                     <h1 className="text-white text-2xl md:text-4xl lg:text-6xl font-bold mb-2 md:mb-4">
                         Find your ideal working space
                     </h1>
@@ -27,13 +30,13 @@ export default function HeroSection() {
                         Find Listings to rent at Ambassador
                     </p>
                     <div className="space-x-2 md:space-x-4">
-                        <button className="bg-gray-400 text-white text-sm px-4 py-1 sm:text-sm sm:px-4 sm:py-1.5 md:px-6 md:py-2 rounded-lg">
+                        <button className="bg-gray-400 bg-opacity-40 text-white font-light text-sm px-4 py-1 sm:text-sm sm:px-4 sm:py-1.5 md:px-6 md:py-2 rounded-lg">
                             Office
                         </button>
-                        <button className="bg-gray-400 text-white text-sm px-4 py-1 sm:text-sm sm:px-4 sm:py-1.5 md:px-6 md:py-2 rounded-lg">
+                        <button className="bg-gray-400 bg-opacity-40 text-white  font-light text-sm px-4 py-1 sm:text-sm sm:px-4 sm:py-1.5 md:px-6 md:py-2 rounded-lg">
                             Commercial
                         </button>
-                        <button className="bg-gray-400 text-white text-sm px-4 py-1 sm:text-sm sm:px-4 sm:py-1.5 md:px-6 md:py-2 rounded-lg">
+                        <button className="bg-gray-400 bg-opacity-40 text-white font-light text-sm px-4 py-1 sm:text-sm sm:px-4 sm:py-1.5 md:px-6 md:py-2 rounded-lg">
                             Storage
                         </button>
                     </div>
