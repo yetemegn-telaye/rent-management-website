@@ -10,14 +10,25 @@ export default function Home() {
             <p className="text-gray-400 font-extralight text-center mb-6">Browse through our wide range of choice</p>
       </div>
       <div className='my-8'>
-        <ul className='flex justify-center items-center gap-7'>
-            <li><Link href='/' className='p-2 px-4 bg-primary rounded-full border border-dark'>All Listings</Link></li>
-            <li><Link href='/' className='p-2 px-4 hover:bg-primary hover:border hover:rounded-full '>Available</Link></li>
-            <li><Link href='/' className='p-2 px-4 hover:bg-primary hover:border  hover:rounded-full'>Rented</Link></li>
-            <li><Link href='/' className='p-2 px-4 hover:bg-primary hover:border  hover:rounded-full'>Price</Link></li>
-            <li><Link href='/' className='p-2 px-4 hover:bg-primary hover:border hover:rounded-full'>Floor</Link></li>
-        </ul>
-      </div>
+    <ul className='flex justify-center items-center gap-2 md:gap-7 flex-wrap'>
+        <li>
+            <Link href='/' className='p-2 px-4 bg-primary rounded-full border border-dark text-xs md:text-base'>All Listings</Link>
+        </li>
+        <li>
+            <Link href='/' className='p-2 px-4 hover:bg-primary hover:border hover:rounded-full text-xs md:text-base'>Available</Link>
+        </li>
+        <li>
+            <Link href='/' className='p-2 px-4 hover:bg-primary hover:border hover:rounded-full text-xs md:text-base'>Rented</Link>
+        </li>
+        <li>
+            <Link href='/' className='p-2 px-4 hover:bg-primary hover:border hover:rounded-full text-xs md:text-base'>Price</Link>
+        </li>
+        <li>
+            <Link href='/' className='p-2 px-4 hover:bg-primary hover:border hover:rounded-full text-xs md:text-base'>Floor</Link>
+        </li>
+    </ul>
+</div>
+
      <ListingsSection />
   
    </div>
