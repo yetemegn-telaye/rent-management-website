@@ -6,9 +6,9 @@ export default function Navbar() {
 
     return (
         <div className="relative top-4 mx-2 p-3 px-12 flex justify-between items-center bg-white rounded-full text-dark">
-            <div className="font-semibold text-lg">
-                <h1>Ambassador Mall</h1>
-                <p className="text-gray-400 font-light text-sm">XP Property Management</p>
+            <div className="font-semibold lg:text-lg">
+                <h1 className='text-sm'>Ambassador Mall</h1>
+                <p className="text-gray-400 font-light text-xs">XP Property Management</p>
             </div>
             <div className={`${isOpen ? 'flex' : 'hidden'} flex-col rounded-half text-sm lg:flex lg:items-center lg:justify-center absolute lg:relative top-full lg:top-0 right-0 lg:right-auto bg-white lg:bg-transparent z-20 w-full lg:w-auto`}>
                 <ul className="flex flex-col lg:flex-row lg:items-center gap-4 p-4 lg:p-0">
@@ -30,7 +30,7 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="flex gap-4 p-4 lg:p-0 text-sm">
-                <p>
+                <p className='lg:flex hidden'>
                     <span className="mr-2">📞</span>+25193423112
                 </p>
                 <p className="font-light">sign in</p>
