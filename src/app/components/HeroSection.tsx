@@ -19,7 +19,7 @@ export default function HeroSection() {
             </div>
             <div className="relative bg-black bg-opacity-50">
                 <Navbar />
-                <div className="relative z-10 flex flex-col justify-center items-center text-center h-screen">
+                <div className="relative z-10 flex flex-col justify-center gap-8 items-center text-center h-screen">
                 <button className="border text-white font-light text-sm px-4 py-1 sm:text-sm sm:px-4 sm:py-1.5 md:px-6 md:py-2 rounded-full mb-10">
                             Let Us Grow Together
                     </button>

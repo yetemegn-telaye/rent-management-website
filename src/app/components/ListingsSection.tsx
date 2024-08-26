@@ -83,7 +83,7 @@ const listings = [
 
 export default function ListingsSection() {
     return (
-<div className="container mx-auto px-4 sm:px-6 lg:px-12">
+<div className="container mx-auto px-4 mb-24 sm:px-6 lg:px-12">
   
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 text-sm">
                 {listings.map((listing) => (
@@ -140,7 +140,7 @@ export default function ListingsSection() {
                     </div>
                 ))}
             </div>
-            <div className="text-center mt-8">
+            <div className="text-center mt-14">
                 <Link href="/all-listings" className="bg-light text-dark  p-3 rounded-full font-light">
                     See All Listing →
                 </Link>

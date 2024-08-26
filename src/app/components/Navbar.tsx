@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
+
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false); // State to manage menu toggle
 
