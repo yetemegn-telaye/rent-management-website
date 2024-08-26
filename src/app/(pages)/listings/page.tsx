@@ -1,7 +1,10 @@
+"use client";
 import ListingsSection from "@/app/components/ListingsSection";
+import SecondLayout from "@/app/(pages)/secondLayout";
 
 export default function Listing({params}: {params: any}) {
     return (
+      <SecondLayout>
         <div className="container mx-auto py-12 my-14">
              <div className='flex flex-col mb-8'>
           <h3 className='text-2xl text-dark font-semibold text-center'>
@@ -11,5 +14,6 @@ export default function Listing({params}: {params: any}) {
         </div>
             <ListingsSection/>
         </div>
+        </SecondLayout>
     );
 }

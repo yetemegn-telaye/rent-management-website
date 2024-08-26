@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <div className="bg-secondary text-white p-6 md:px-10">
+        <div id="footerSection" className="bg-secondary text-white p-6 md:px-10">
         <div className="px-6 md:px-12">
             <div className="flex pt-5 md:flex-row justify-between items-center">
                 <div className="mb-4 md:mb-0">

@@ -4,7 +4,7 @@ import officeIcon from "../public/icons/to-work-in-an-office-2 1.svg";
 
 export default function ServicesSection() {
     return (
-        <div className="mt-8 mx-auto py-12 px-4 sm:px-6 lg:px-12">
+        <div id="servicesSection" className="mt-8 mx-auto py-12 px-4 sm:px-6 lg:px-12">
         <div className="text-center py-8">
             <h2 className="text-2xl font-bold text-dark">Our Services</h2>
           

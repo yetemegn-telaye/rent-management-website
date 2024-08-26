@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import officeImg1 from "../public/images/office1.webp";
@@ -132,7 +132,7 @@ export default function ListingsSection() {
                             <div className="flex items-center justify-between gap-1 text-gray-600 text-sm">
                                 <span className='border-r pr-2'>📐 {listing.area} sq ft.</span>
                                 <span className='border-r pr-2'>🛁 2</span>
-                                <button className='p-1 px-4 bg-primary rounded-full text-dark'>View</button>
+                                <button className='p-1 px-4 bg-primary rounded-full text-dark hover:bg-dark hover:text-white'><Link href={`/listings/${listing.id}`}>View</Link></button>
                             </div>
                             </div>
                           
